@@ -1,0 +1,553 @@
+!!python/object/apply:collections.defaultdict
+args: [!!python/name:builtins.dict '']
+dictitems:
+  AUD/JPY: {close_period: 9.4, close_spread: 0.37, open_period: 9.3, open_spread: 0.95}
+  EUR/JPY: {close_period: 9.5, close_spread: 0.38, open_period: 9.4, open_spread: 0.98}
+  EUR/USD: {close_period: 9.6, close_spread: 0.35, open_period: 9.6, open_spread: 0.82}
+  GBP/JPY: {close_period: 9.6, close_spread: 0.3, open_period: 9.6, open_spread: 0.8}
+  USD/JPY: {close_period: 1.0, close_spread: 0.1, open_period: 2.0, open_spread: 0.1}
+  account:
+    column_widths: [21, 72, 69, 61, 75, 54]
+    columns_widths: [100, 100, 100, 100, 100, 100]
+    enabled_accounts: !!set {gaitamecom: null, minSys: null, minfx: null, pfxnano: null,
+      triauto: null}
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 494]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 106]
+  adjust:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [172, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [86, 25]
+    value: 3000.0
+  main_window:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [747, 11]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 739]
+  price:
+    column_widths: [100, 100, 100, 100, 100, 100, 100]
+    columns_widths: [100, 100, 100, 100, 100, 100, 100]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 26]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [373, 146]
+  price[0]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 120]
+  price[0].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [425, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 1.0
+  price[0].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [319, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.1
+  price[0].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    text: USD/JPY
+  price[0].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [212, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [107, 25]
+    value: 2.0
+  price[0].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [106, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.1
+  price[0].price:
+    column_widths: [58, 72, 54, 52, 55, 72, 100]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 25]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 95]
+  price[1]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 124]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 119]
+  price[1].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [425, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 9.4
+  price[1].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [319, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.37
+  price[1].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    text: AUD/JPY
+  price[1].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [212, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [107, 25]
+    value: 9.3
+  price[1].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [106, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.95
+  price[1].price:
+    column_widths: [36, 72, 54, 34, 55, 72, 36]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 25]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 94]
+  price[2]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 247]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 120]
+  price[2].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [425, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 9.5
+  price[2].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [319, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.38
+  price[2].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    text: EUR/JPY
+  price[2].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [212, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [107, 25]
+    value: 9.4
+  price[2].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [106, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.98
+  price[2].price:
+    column_widths: [87, 75, 54, 34, 55, 72, 36]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 25]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 95]
+  price[3]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 371]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 119]
+  price[3].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [425, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 9.6
+  price[3].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [319, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.3
+  price[3].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    text: GBP/JPY
+  price[3].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [212, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [107, 25]
+    value: 9.6
+  price[3].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [106, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [106, 25]
+    value: 0.8
+  price[3].price:
+    column_widths: [36, 72, 54, 33, 55, 72, 100]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 25]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 94]
+  price_table[0]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [373, 165]
+  price_table[0].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [309, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 2.0
+  price_table[0].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [227, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 0.4
+  price_table[0].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [81, 25]
+    text: USD/JPY
+  price_table[0].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [163, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 2.0
+  price_table[0].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [81, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 1.0
+  price_table[1]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 169]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [373, 164]
+  price_table[1].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [309, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 2.0
+  price_table[1].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [227, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 0.4
+  price_table[1].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [81, 25]
+    text: AUD/JPY
+  price_table[1].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [163, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 2.0
+  price_table[1].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [81, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 1.0
+  price_table[2]:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 337]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [373, 165]
+  price_table[2].close_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [309, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 1.7999999999999998
+  price_table[2].close_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [227, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 0.4
+  price_table[2].instruments:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [81, 25]
+    text: GBP/JPY
+  price_table[2].open_period_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [163, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [64, 26]
+    value: 2.0
+  price_table[2].open_spread_spin:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [81, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [82, 26]
+    value: 1.05
+  signals:
+    column_widths: [122, 51, 72, 54, 72, 55, 33]
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 633]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 106]
+  sound_close:
+    checked: false
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [170, 1]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [33, 23]
+  sound_mute:
+    checked: true
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [128, 1]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [36, 23]
+  splitter:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [0, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [531, 739]
+  update_interval:
+    pos: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QPoint
+    - !!python/tuple [264, 0]
+    size: !!python/object/apply:sip._unpickle_type
+    - PyQt5.QtCore
+    - QSize
+    - !!python/tuple [58, 25]
+    value: 0.5
